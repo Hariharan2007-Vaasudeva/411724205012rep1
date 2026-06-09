@@ -1,0 +1,70 @@
+body{
+    background-color: black;
+    color: brown;
+}
+img{
+    height: 500px;
+    width: 500px;
+    border-radius: 100px;
+    
+}
+@media (min-width: 600px){
+
+img{
+    height: auto;
+    width : 100%;
+}}
+video{
+    border-radius:10px;
+}
+ol{
+    list-style-type: lower-roman;
+}
+h1{
+    padding:10px;
+    border:1px solid red;
+}
+button{
+    background-color: aquamarine;
+    padding: 10px;
+    margin: 10px;
+}
+button:hover{
+    background-color: blue;
+}
+table, th, td{
+    border: 1px solid rosybrown;
+    border-collapse: collapse ;
+}
+nav{
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+}
+@media (min-width: 1024px){
+    nav{
+        display: flex;
+        flex-direction: row;
+        gap: 50px;
+    }
+}
+#p1{
+    background-color: blue;
+    color: aliceblue;
+}
+#p2{
+    background-color: blueviolet;
+    color: aliceblue;
+}
+.group{
+    font-size:xx-large;
+}
+.grid{
+    display: grid;
+}
+/*@media (min-width: 1024px){
+    .grid{
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+    }
+}
